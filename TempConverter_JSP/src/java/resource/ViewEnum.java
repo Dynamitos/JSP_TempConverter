@@ -6,7 +6,7 @@ public enum ViewEnum
     RESULT("/WEB-INF/result/result.jsp"),
     ERROR("/WEB-INF/error/errorView.jsp"),
     EXCEPTION("/WEB-INF/error/exceptionView.jsp"),
-    FORM_HOME("/WEB-INF/includes/formGoHome.jsp");
+    HOME("/WEB-INF/includes/home.jsp");
 
     private String view;
 

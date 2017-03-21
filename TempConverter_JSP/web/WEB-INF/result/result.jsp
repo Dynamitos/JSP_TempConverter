@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="serlvet.ConverterBean"%>
+<%@page import="resource.ViewEnum"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,6 +11,8 @@
         <h1>Temperature Converter</h1>
         <b>Converted from </b> ${ConverterBean.convertText} <br/>
         <b>Before: </b> ${ConverterBean.tempBefore} ${ConverterBean.einheitBefore}<br/>
-        <b>After: </b> ${ConverterBean.tempResult} ${ConverterBean.einheitAfter}
+        <b>After: </b> ${ConverterBean.tempResult} ${ConverterBean.einheitAfter}<br/>
+        
+        <jsp:include page="<%=ViewEnum.HOME.getView()%>"/>
     </body>
 </html>
