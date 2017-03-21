@@ -3,7 +3,7 @@ package resource;
 public enum ViewEnum
 {
     START("/view/start.jsp"),
-    RESULT("/WEB-INF/result/helloWorldView.jsp"),
+    RESULT("/WEB-INF/result/result.jsp"),
     ERROR("/WEB-INF/error/errorView.jsp"),
     EXCEPTION("/WEB-INF/error/exceptionView.jsp"),
     FORM_HOME("/WEB-INF/includes/formGoHome.jsp");

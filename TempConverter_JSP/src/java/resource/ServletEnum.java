@@ -1,7 +1,7 @@
 package resource;
 
 public enum ServletEnum {
-    HELLOWORLD("/HelloWorld"),
+    CONVERTER("/Converter"),
     ERRORHANDLER("/ErrorHandler");
 
     private String urlPattern;
