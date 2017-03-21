@@ -1,8 +1,8 @@
 package resource;
 
-public enum ViewResourceEnum
+public enum ViewEnum
 {
-    START("/view/helloWorldStartView.jsp"),
+    START("/view/start.jsp"),
     RESULT("/WEB-INF/result/helloWorldView.jsp"),
     ERROR("/WEB-INF/error/errorView.jsp"),
     EXCEPTION("/WEB-INF/error/exceptionView.jsp"),
@@ -10,7 +10,7 @@ public enum ViewResourceEnum
 
     private String view;
 
-    private ViewResourceEnum(String view)
+    private ViewEnum(String view)
     {
         this.view = view;
     }

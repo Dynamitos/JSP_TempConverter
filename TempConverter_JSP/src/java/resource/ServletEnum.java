@@ -1,12 +1,12 @@
 package resource;
 
-public enum ServletResourceEnum {
+public enum ServletEnum {
     HELLOWORLD("/HelloWorld"),
     ERRORHANDLER("/ErrorHandler");
 
     private String urlPattern;
 
-    private ServletResourceEnum(String urlPattern) {
+    private ServletEnum(String urlPattern) {
         this.urlPattern = urlPattern;
     }
 
